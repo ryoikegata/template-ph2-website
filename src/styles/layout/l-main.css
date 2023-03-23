@@ -1,0 +1,8 @@
+.l-main {
+  padding-top: 56px;
+}
+@media screen and (min-width: 768px) {
+  .l-main {
+    padding-top: 80px;
+  }
+}/*# sourceMappingURL=l-main.css.map */

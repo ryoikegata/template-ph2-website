@@ -1,0 +1,30 @@
+.p-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.8;
+}
+@media screen and (min-width: 768px) {
+  .p-heading {
+    letter-spacing: 0.05em;
+    font-size: 36px;
+    line-height: 1.5;
+  }
+}
+.p-heading.-light {
+  color: #fff;
+}
+.p-heading__caption {
+  letter-spacing: initial;
+  font-family: "Plus Jakarta Sans", "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  color: #0071bc;
+  line-height: 1.8;
+  display: block;
+  margin-top: 4px;
+}
+@media screen and (min-width: 768px) {
+  .p-heading__caption {
+    margin-top: 8px;
+  }
+}/*# sourceMappingURL=p-heading.css.map */

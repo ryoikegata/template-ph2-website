@@ -1,0 +1,32 @@
+.p-hero {
+  padding: 60px 16px 32px;
+}
+@media screen and (min-width: 768px) {
+  .p-hero {
+    padding: 110px 0 76px;
+  }
+}
+.p-hero__title {
+  color: #fff;
+  font-weight: bold;
+}
+.p-hero__title__label {
+  font-size: 14px;
+  line-height: 1.8;
+}
+@media screen and (min-width: 768px) {
+  .p-hero__title__label {
+    font-size: 18px;
+  }
+}
+.p-hero__title__inline {
+  display: block;
+  font-size: 28px;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .p-hero__title__inline {
+    margin-top: 12px;
+    font-size: 60px;
+  }
+}/*# sourceMappingURL=p-hero.css.map */

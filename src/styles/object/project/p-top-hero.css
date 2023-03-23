@@ -1,0 +1,106 @@
+.p-top-hero__inner {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+@media not all and (min-width: 768px) {
+  .p-top-hero__inner {
+    flex-direction: column-reverse;
+  }
+}
+.p-top-hero__body {
+  background-color: #eff2f5;
+  border-radius: 20px;
+  padding: 20px 11px 20px 24px;
+  display: inline-block;
+  white-space: nowrap;
+  position: relative;
+  align-self: center;
+}
+@media not all and (min-width: 768px) {
+  .p-top-hero__body {
+    margin-top: -25px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .p-top-hero__body {
+    border-radius: 24px;
+    padding: 50px 62px;
+  }
+}
+.p-top-hero__body__title {
+  color: #0071bc;
+  font-size: 12px;
+  line-height: 1.8;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .p-top-hero__body__title {
+    font-size: 16px;
+  }
+}
+.p-top-hero__body__catchcopy {
+  font-size: 28px;
+  font-weight: bold;
+  margin-top: 6px;
+  display: inline-block;
+  line-height: 1.5;
+}
+@media not all and (min-width: 768px) {
+  .p-top-hero__body__catchcopy br {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .p-top-hero__body__catchcopy {
+    margin-top: 10px;
+    letter-spacing: 0.05em;
+    line-height: 1.3333;
+    font-size: 60px;
+  }
+}
+.p-top-hero__image {
+  max-height: 275px;
+  overflow: hidden;
+  display: block;
+}
+@media screen and (min-width: 768px) {
+  .p-top-hero__image {
+    max-height: 680px;
+    border-radius: 80px 0 0 80px;
+    margin-left: -125px;
+    margin-right: calc(50% - 50vw);
+  }
+}
+.p-top-hero__image img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+}
+.p-top-hero__scroll {
+  position: absolute;
+  left: 32px;
+  bottom: 24px;
+  font-family: "Plus Jakarta Sans", "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.p-top-hero__scroll::before {
+  content: "";
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background-color: #ccc;
+}
+@media not all and (min-width: 768px) {
+  .p-top-hero__scroll {
+    display: none;
+  }
+}/*# sourceMappingURL=p-top-hero.css.map */

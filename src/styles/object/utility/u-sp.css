@@ -1,0 +1,10 @@
+@media not all and (min-width: 768px) {
+  .u-sp-hidden {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .u-sp-visible {
+    display: none;
+  }
+}/*# sourceMappingURL=u-sp.css.map */

@@ -1,0 +1,8 @@
+.p-quiz-container {
+  margin-top: 48px;
+}
+@media screen and (min-width: 768px) {
+  .p-quiz-container {
+    margin-top: 120px;
+  }
+}/*# sourceMappingURL=p-quiz-container.css.map */

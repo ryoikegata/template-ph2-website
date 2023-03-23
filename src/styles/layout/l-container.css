@@ -1,0 +1,11 @@
+.l-container {
+  margin: 0 auto;
+  max-width: 1032px;
+  width: 100%;
+  padding: 0 16px;
+}
+@media screen and (min-width: 768px) {
+  .l-container {
+    padding: 0 24px;
+  }
+}/*# sourceMappingURL=l-container.css.map */

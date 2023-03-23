@@ -1,0 +1,1 @@
+{"version":3,"sources":["p-heading.scss","p-heading.css","../../foundation/_variables.scss"],"names":[],"mappings":"AAEA;EACE,kBAAA;EACA,eAAA;EACA,iBAAA;EACA,gBAAA;ACDF;ACoCM;EFvCN;IAOI,sBAAA;IACA,eAAA;IACA,gBAAA;ECAF;AACF;ADEE;EACE,WENU;ADMd;ADGE;EACE,uBAAA;EACA,4DEIW;EFHX,eAAA;EACA,cENY;EFOZ,gBAAA;EACA,cAAA;EACA,eAAA;ACDJ;ACiBM;EFvBJ;IAUI,eAAA;ECAJ;AACF","file":"p-heading.css"}

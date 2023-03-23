@@ -1,0 +1,21 @@
+.p-top-about__body {
+  margin-top: 22px;
+  display: grid;
+  gap: 16px;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .p-top-about__body {
+    margin-top: 42px;
+    gap: 40px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.p-top-about__image {
+  border-radius: 16px;
+  overflow: hidden;
+}
+.p-top-about__content {
+  font-size: 14px;
+  line-height: 1.8;
+}/*# sourceMappingURL=p-top-about.css.map */
